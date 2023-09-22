@@ -22,7 +22,7 @@ class BoardButton extends StatelessWidget {
             onPressed: () {
               onPlayerClickCallBack(position);
             },
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.cyan),
+            style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF1CB9B5)),
             child: Text(
               buttonText,
               style: TextStyle(fontSize: 100, color: Colors.black),
