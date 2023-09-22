@@ -25,7 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
         title: Container(
             alignment: Alignment.center,
             child: Text('Tic Tac Toe', style: TextStyle(fontSize: 35))),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xFF1CB9B5),
       ),
       body: SingleChildScrollView(
         child: Container(
@@ -52,12 +52,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     fillColor: Colors.white,
                     errorText: errorPlayer1,
                     hintStyle: TextStyle(
-                      color: Colors.cyan,
+                      color: Color(0xFF1CB9B5),
                       fontWeight: FontWeight.bold,
                     ),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(15),
-                        borderSide: BorderSide(color: Colors.cyan, width: 50))),
+                        borderSide: BorderSide(color: Color(0xFF1CB9B5), width: 50))),
               ),
               SizedBox(
                 height: 25,
@@ -72,12 +72,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     fillColor: Colors.white,
                     errorText: errorPlayer2,
                     hintStyle: TextStyle(
-                      color: Colors.cyan,
+                      color: Color(0xFF1CB9B5),
                       fontWeight: FontWeight.bold,
                     ),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
-                      borderSide: BorderSide(color: Colors.cyan, width: 50),
+                      borderSide: BorderSide(color: Color(0xFF1CB9B5), width: 50),
                     )),
               ),
               SizedBox(
@@ -113,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     'Start Game',
                   ),
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.cyan,
+                    backgroundColor: Color(0xFF1CB9B5),
                   ))
             ],
           ),
