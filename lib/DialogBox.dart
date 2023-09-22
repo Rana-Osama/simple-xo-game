@@ -35,14 +35,14 @@ class DialogBox extends StatelessWidget {
               children: [
                 Container(
                   padding: EdgeInsets.all(10),
-                  color: Colors.cyan,
+                  color: Color(0xFF1CB9B5),
                   child: Text('''${player1} Score: 
                   
             $score1'''),
                 ),
                 Container(
                   padding: EdgeInsets.all(10),
-                  color: Colors.cyan,
+                  color: Color(0xFF1CB9B5),
                   child: Text('''${player2} Score: 
                   
             $score2'''),
