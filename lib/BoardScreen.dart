@@ -17,7 +17,7 @@ class _BoardScreenState extends State<BoardScreen> {
   // player 1 = > true , player 2 => false
   bool currentPlayer = true;
   bool previousWinner = true;
-  Color player1Color = Colors.cyan;
+  Color player1Color = Color(0xFF1CB9B5);
   Color player2Color = Colors.black;
 
   String player1Name = '';
@@ -38,7 +38,7 @@ class _BoardScreenState extends State<BoardScreen> {
               'Tic Tac Toe',
               style: TextStyle(fontSize: 35),
             )),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xFF1CB9B5),
       ),
       body: Column(
         children: [
@@ -173,22 +173,22 @@ class _BoardScreenState extends State<BoardScreen> {
       if (counter.isEven) {
         boardState[index] = 'X';
         player1Color = Colors.black;
-        player2Color = Colors.cyan;
+        player2Color = Color(0xFF1CB9B5);
       } else {
         boardState[index] = 'O';
-        player1Color = Colors.cyan;
+        player1Color = Color(0xFF1CB9B5);
         player2Color = Colors.black;
       }
       counter++;
     } else {
       if (counter.isEven) {
         boardState[index] = 'O';
-        player1Color = Colors.cyan;
+        player1Color = Color(0xFF1CB9B5);
         player2Color = Colors.black;
       } else {
         boardState[index] = 'X';
         player1Color = Colors.black;
-        player2Color = Colors.cyan;
+        player2Color = Color(0xFF1CB9B5);
       }
       counter++;
     }
@@ -254,11 +254,11 @@ class _BoardScreenState extends State<BoardScreen> {
     boardState = ['', '', '', '', '', '', '', '', ''];
     counter = 0;
     if (previousWinner) {
-      player1Color = Colors.cyan;
+      player1Color = Color(0xFF1CB9B5);
       player2Color = Colors.black;
     } else {
       player1Color = Colors.black;
-      player2Color = Colors.cyan;
+      player2Color = Color(0xFF1CB9B5);
     }
   }
 
